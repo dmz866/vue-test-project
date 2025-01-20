@@ -3,5 +3,5 @@
 </script>
 
 <template>
- Feature Page
+ Pricing Page
 </template>
