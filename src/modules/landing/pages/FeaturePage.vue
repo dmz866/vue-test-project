@@ -1,7 +1,7 @@
 <script setup lang="ts">
-
+defineProps<{id: number}>();
 </script>
 
 <template>
- Home Page
+ Feature Page {{ id }}
 </template>

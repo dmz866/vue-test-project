@@ -1,7 +1,0 @@
-<script setup lang="ts">
-
-</script>
-
-<template>
- Feature Page
-</template>
