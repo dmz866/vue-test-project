@@ -1,9 +1,9 @@
 <template>
     <nav>
-       <RouterLink to="/">Home</RouterLink>
-       <RouterLink :to="{name: 'features', params: {id: 1}}">Features</RouterLink>
-       <RouterLink to="/contact">Contact</RouterLink>
-       <RouterLink to="/pricing">Pricing</RouterLink>
+       <RouterLink to="/" exact-active-class="underline">Home</RouterLink>
+       <RouterLink :to="{name: 'features', params: {id: 1}}" exact-active-class="underline">Features</RouterLink>
+       <RouterLink to="/contact" exact-active-class="underline text-white">Contact</RouterLink>
+       <RouterLink to="/pricing" exact-active-class="underline">Pricing</RouterLink>
     </nav>
     <main>
      <RouterView v-slot="{Component}">
